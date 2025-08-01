@@ -8,13 +8,61 @@
 </head>
 <body class="bg-slate-900 text-white">
 
-  <header class="bg-red-600 mx-auto max-w-screen-lg px-3 py-6">
-    <div class="font-bold font-mono">
+  <header class="mx-auto max-w-screen-lg px-3 py-6 flex justify-between items-center">
+    <!-- Logo -->
+    <div class="font-bold text-xl text-cyan-600">
+      Meu Portfolio
+    </div>
+
+    <!-- Links -->
+    <div class="">
+      <ul class="flex gap-x-3 font-medium text-gray-200">
+        <li><a href="#"class="hover:underline">Projetos</a></li>
+        <li><a href="https://github.com/camilampinheiro"class="hover:underline">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/camila-martins-64527a269/"class="hover:underline">LinkedIn</a></li>
+        <!-- <li><a href="#"class="hover:underline">Twitter</a></li> -->
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section>
+      <!-- Título e descrição  -->
+      <div>
+
+      </div>
+
+      <!-- Imagem -->
+      <div>
+
+      </div>
+  
+    </section>
+  
+     <!-- Projetos -->
+    <section>
+      <!-- Projeto -->
+      <div>
+        
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <!-- Data -->
+    <div>
 
     </div>
-    <p>Logo</p>
 
-  </header>
+    <!-- Links -->
+    <div>
+
+    </div>
+  </footer>
+
+  
 
 </body>
 </html>
