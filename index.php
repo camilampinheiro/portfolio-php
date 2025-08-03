@@ -6,63 +6,26 @@
   <title>Meu Portfolio</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-slate-900 text-white">
+<body class="bg-slate-900 text-gray-200">
+  <?php include('./components/header.php');?>
 
-  <header class="mx-auto max-w-screen-lg px-3 py-6 flex justify-between items-center">
-    <!-- Logo -->
-    <div class="font-bold text-xl text-cyan-600">
-      Meu Portfolio
-    </div>
-
-    <!-- Links -->
-    <div class="">
-      <ul class="flex gap-x-3 font-medium text-gray-200">
-        <li><a href="#"class="hover:underline">Projetos</a></li>
-        <li><a href="https://github.com/camilampinheiro"class="hover:underline">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/camila-martins-64527a269/"class="hover:underline">LinkedIn</a></li>
-        <!-- <li><a href="#"class="hover:underline">Twitter</a></li> -->
-      </ul>
-    </div>
-  </header>
-
-  <main>
-    <!-- Hero -->
-    <section>
-      <!-- Título e descrição  -->
-      <div>
-
-      </div>
-
-      <!-- Imagem -->
-      <div>
-
-      </div>
+  <main class="mx-auto max-w-screen-lg min-h-20 px-3 py-6">
+    <?php include('./components/hero.php');?>
   
-    </section>
-  
-     <!-- Projetos -->
-    <section>
-      <!-- Projeto -->
-      <div>
-        
-      </div>
+    <section class="space-y-3 py-6" id="projetos">
+      <h2 class="text-2xl font-bold">Meus Projetos</h2>
+
+      <?php include('./components/projetos.php');?>
     </section>
   </main>
 
-
-  <footer>
-    <!-- Data -->
-    <div>
-
-    </div>
-
-    <!-- Links -->
-    <div>
-
+  <footer class="mx-auto max-w-screen-lg min-h-20 px-3">
+    <div class="border-t border-gray-600 pt-6 px-3 text-gray-400 text-sm flex justify-center">
+      © Copyright <?=date("Y");?>. Construído por Camila Pinheiro.
     </div>
   </footer>
 
-  
-
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
